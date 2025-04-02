@@ -2,7 +2,43 @@ h1, h2 {
     font-size: 50px;
     padding-top:10px;
     text-align: center;
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
-    font-style: normal
+    font-family: montecatini-pro-ampio, serif;
+    font-weight: 800;
+    font-style: normal;
   }
+
+/** css for fonts
+
+font weights available between 300-800 for each
+
+300 = light
+
+400 = normal
+
+500 = medium
+
+600 = semiBold
+
+700 = Bold
+
+800 = Ultra
+
+Ampio 800 = LogoType
+
+font-family: montecatini-pro-ampio, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: montecatini-pro-largo, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: montecatini-pro-normale, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: montecatini-pro-stretto, serif;
+font-weight: 400;
+font-style: normal;
+
+**/
