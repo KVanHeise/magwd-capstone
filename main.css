@@ -21,6 +21,19 @@ h1, h2 {
     list-style: none;
   }
 
+  a {
+    text-decoration: none;
+    color: #336699;
+  }
+
+  a:hover {
+    color: #FFCC66;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
   canvas {
     display: block;
     margin:auto;
