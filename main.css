@@ -1,27 +1,60 @@
-body{
+html{
+  height: 100%;
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-image: url('/images/colored-pencil-336699.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-h1 {
-    font-size: 50px;
-    padding-top:10px;
-    text-align: center;
-  }
+body{
+  margin:0px 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 100%;
+}
 
-header{
+h1{
+  margin:0;
+}
+
+header p {
+  padding:0px 75px;
   text-align: center;
+  font-size: larger;
 }
 
-  img {
+header img {
     display: block;
-    max-width: 1500px;
-    margin: auto;
-    padding-bottom: 25px;
+    margin:auto;
+    width:75%;
+    max-width: 500px;
+    object-fit: cover;
   }
 
-  nav ul {
+.page-content {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.page-content p{
+  padding:0px 50px;
+  text-align: left;
+}
+
+.driving-visual {
+    display: block;
+    margin:auto;
+    width:90%;
+    object-fit: cover;
+  }
+
+nav{
+  background-color: #336699;
+}
+
+nav ul {
     font-size: 24px;
     display: flex;
     flex-direction: row;
@@ -29,39 +62,39 @@ header{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    padding:10px;
   }
 
-  a {
+  nav li{
+    padding:0px 15px;
+  }
+
+a {
     text-decoration: none;
-    color: #336699;
+    color: #FFFFFF;
   }
 
-  a:hover {
+a:hover {
     color: #FFCC66;
   }
 
-  footer p {
+footer p {
     text-align: center;
   }
 
-  canvas {
-    display: block;
-    margin:auto;
-  }
-
-  .ampio-regular {
+.ampio-regular {
     font-family: montecatini-pro-ampio, serif;
     font-weight: 400;
     font-style: normal;
   }
 
-  .ampio-ultra {
+.ampio-ultra {
     font-family: montecatini-pro-ampio, serif;
     font-weight: 800;
     font-style: normal;
   }
 
-  .stretto-regular {
+.stretto-regular {
     font-family: montecatini-pro-stretto, serif;
     font-weight: 400;
     font-style: normal;
